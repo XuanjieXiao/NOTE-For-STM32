@@ -31,3 +31,10 @@ The Notes when learning the STM32
 <br> -1个系统定时器
 <br> -2个看门狗定时器
 
+<br>特别注意：
+
+<br>   STM32的ISP下载，只能使用串口1，也就是对应串
+<br>   口发送接收引脚PA9,PA10。不能使用其他串口  
+（例如串口2：PA2,PA3)用来ISP下载。
+
+ 
