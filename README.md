@@ -1,4 +1,7 @@
 # NOTE-For-STM32
+# Study for rice
+# 因为刚上研究生，做的内容大部分都是理论的研究，为了避免毕业后无法合理的恰饭，所以准备整点实际的，提高自己的代码能力，这里就写点自己的学习笔记。
+## 2020.11.04
 The Notes when learning the STM32
 <br>IO口：
 <br>STM32F407ZGT6: 144引脚  114个IO
@@ -19,7 +22,7 @@ The Notes when learning the STM32
 
 <br>DA:
 <br>   2个12位DA
-
+## 2020.11.05
 <br>DMA:
 <br>   16个DMA通道 ，带FIFO和突发支持
 <br>   支持外设：定时器，ADC,DAC，SDIO,I2S,SPI,I2C,和USART
@@ -39,3 +42,5 @@ The Notes when learning the STM32
 
  
 <br> 注意在进行串口下载的时候，波特率一定要选择正确，因为我们的F4芯片波特率不能大于76800
+
+## 2020.11.07
